@@ -1,5 +1,33 @@
 @charset "utf-8";
 
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    nav {
+      font-size: 16px;
+    }
+  
+    .box {
+      flex: 1 1 100%;
+    }
+  }
+  
+  /* Responsividade para celulares */
+  @media (max-width: 480px) {
+    header, nav, footer {
+      padding: 10px;
+    }
+  
+    nav a {
+      display: block;
+      margin: 5px 0;
+    }
+  
+    .box {
+      margin: 10px 0;
+    }
+  }
+  
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
